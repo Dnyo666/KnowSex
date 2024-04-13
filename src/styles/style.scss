@@ -81,6 +81,12 @@ body {
     width: auto;
     height: auto;
     line-height: 2;
+    .main-meta-author {
+        font-family: "思源黑体", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Source Han Sans", "Noto Sans", "Noto Sans SC", "PingFang SC", "WenQuanYi Micro Hei", "Heiti SC", "STHeiti", "SimHei", sans-serif;
+        color: grey;
+        font-size: .9em;
+        margin-bottom: 1em;
+    }
 }
 
 .index-main {
@@ -448,7 +454,7 @@ article {
             margin-right: 0.15em;
             background-repeat: no-repeat
         }
-
+        margin-top: 1em;
         font-weight: bold;
         font-size: 1.6em;
         font-family: 'Noto Sans SC';
@@ -583,8 +589,8 @@ section.footnotes ol {
     .article-bottom-meta {
         font-size: .9em;
         padding:10px;
-        border-top: 5px dashed #eee;
-        border-bottom: 5px dashed #eee;
+        // border-top: 5px dashed #eee;
+        // border-bottom: 5px dashed #eee;
         // time {
         //     font-family: Consolas, "Courier New", monospace;
         // }
